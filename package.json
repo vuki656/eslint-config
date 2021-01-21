@@ -1,10 +1,18 @@
 {
   "name": "@dvukovic/eslint-config",
   "version": "0.0.0",
-  "author": "Domagoj Vukovic",
-  "license": "UNLICENSED",
+  "author": "vuki656 <off.vukovic@gmail.com>",
+  "license": "MIT",
   "private": false,
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuki656/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/vuki656/eslint-config/issues"
+  },
+  "homepage": "https://github.com/vuki656/eslint-config",
   "files": [
     "core.js",
     "index.js",
