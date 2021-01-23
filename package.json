@@ -16,7 +16,8 @@
   "files": [
     "core.js",
     "index.js",
-    "react.js"
+    "react.js",
+    "react-native.js"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.14.0",
