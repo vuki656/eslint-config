@@ -15,7 +15,8 @@ module.exports = {
         "@typescript-eslint",
         "import",
         "promise",
-        "modules-newline"
+        "modules-newline",
+        "unused-imports"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -311,5 +312,8 @@ module.exports = {
         "yoda": "error",
 
         "modules-newline/import-declaration-newline": "error",
+
+        "@typescript-eslint/no-unused-vars": "off",
+        "unused-imports/no-unused-imports-ts": "error",
     }
 }
