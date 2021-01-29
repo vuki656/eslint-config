@@ -130,9 +130,11 @@ module.exports = {
                 "before": true
             }
         ],
+        "array-bracket-spacing": "error",
         "brace-style": "off",
         "comma-dangle": "off",
         "comma-spacing": "off",
+        "computed-property-spacing": "error",
         "default-param-last": "off",
         "for-direction": "error",
         "func-call-spacing": "off",
@@ -251,6 +253,8 @@ module.exports = {
         "no-useless-constructor": "off",
         "no-useless-escape": "error",
         "no-useless-return": "error",
+        "no-multi-spaces": "error",
+        "no-whitespace-before-property": "error",
         "object-curly-newline": [
             "error",
             {
@@ -264,6 +268,7 @@ module.exports = {
             "error",
             "always"
         ],
+        "padded-blocks": ["error", "never"],
         "prefer-promise-reject-errors": "error",
         "prefer-template": "error",
         "promise/catch-or-return": "error",
@@ -296,7 +301,9 @@ module.exports = {
                 "natural": false
             }
         ],
+        "space-infix-ops": "error",
         "space-before-function-paren": "off",
+        "space-in-parens": "error",
         "template-curly-spacing": "error",
         "use-isnan": "error",
         "valid-typeof": "error",
