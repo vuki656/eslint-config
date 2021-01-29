@@ -19,10 +19,12 @@
     "react.js",
     "react-native.js"
   ],
+  "peerDependencies": {
+    "eslint": "^7"
+  },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.14.0",
-    "@typescript-eslint/parser": "^4.14.0",
-    "eslint": "^7.18.0",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-modules-newline": "^0.0.6",
     "eslint-plugin-promise": "^4.2.1",
