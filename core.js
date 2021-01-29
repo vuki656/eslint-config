@@ -14,7 +14,8 @@ module.exports = {
     "plugins": [
         "@typescript-eslint",
         "import",
-        "promise"
+        "promise",
+        "modules-newline"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
