@@ -300,6 +300,8 @@ module.exports = {
         "use-isnan": "error",
         "valid-typeof": "error",
         "wrap-iife": "error",
-        "yoda": "error"
+        "yoda": "error",
+
+        "modules-newline/import-declaration-newline": "error",
     }
 }

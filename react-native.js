@@ -13,7 +13,7 @@ module.exports = {
     },
     "rules": {
         "react-native/sort-styles": "error",
-        "react-native/no-color-literals": "warn",
+        "react-native/no-color-literals": "error",
         "react-native/no-inline-styles": "error",
         "react-native/no-unused-styles": "error",
         "react-native/no-raw-text": "error",
