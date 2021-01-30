@@ -228,7 +228,9 @@ module.exports = {
         "no-irregular-whitespace": "error",
         "no-mixed-spaces-and-tabs": "error",
         "no-multiple-empty-lines": ["error", {
-            "max": 1
+            "max": 1,
+            "maxEOF": 0,
+            "maxBOF": 0
         }],
         "no-obj-calls": "error",
         "no-param-reassign": "error",
