@@ -16,7 +16,8 @@ module.exports = {
         "import",
         "promise",
         "modules-newline",
-        "unused-imports"
+        "unused-imports",
+        "sort-keys-fix"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -325,5 +326,7 @@ module.exports = {
 
         "@typescript-eslint/no-unused-vars": "off",
         "unused-imports/no-unused-imports-ts": "error",
+
+        "sort-keys-fix/sort-keys-fix": "error"
     }
 }
