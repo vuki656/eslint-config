@@ -277,8 +277,8 @@ module.exports = {
             "error",
             {
                 "blankLine": "always",
-                "prev": "*",
-                "next": "export"
+                "prev": "const",
+                "next": "try"
             }
         ],
         "prefer-promise-reject-errors": "error",
