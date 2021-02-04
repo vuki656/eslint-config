@@ -177,8 +177,8 @@ module.exports = {
             }
         ],
         "object-curly-spacing": [
-            "always",
-            "error"
+            "error",
+            "always"
         ],
         "padded-blocks": [
             "error",
