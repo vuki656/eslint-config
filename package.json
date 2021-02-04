@@ -17,7 +17,8 @@
     "core.js",
     "index.js",
     "react.js",
-    "react-native.js"
+    "react-native.js",
+    "typescript.js"
   ],
   "peerDependencies": {
     "eslint": "^7"
