@@ -21,10 +21,7 @@ module.exports = {
     ],
     "rules": {
         "array-bracket-spacing": "error",
-        "arrow-parens": [
-            "always",
-            "error"
-        ],
+        "arrow-parens": "error",
         "arrow-spacing": [
             "error",
             {
