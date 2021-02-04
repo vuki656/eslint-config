@@ -97,7 +97,7 @@ module.exports = {
             }
         ],
         "modules-newline/import-declaration-newline": "error",
-        "multiline-ternary": "always-multiline",
+        "multiline-ternary": ["error", "always-multiline"],
         "newline-before-return": "error",
         "newline-per-chained-call": [
             "error",
