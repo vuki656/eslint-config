@@ -103,7 +103,7 @@ module.exports = {
         "@typescript-eslint/no-unused-vars": "off",
 
         "no-useless-constructor": "off",
-        "@typescript-eslint/no-useless-constructor": ["error"],
+        "@typescript-eslint/no-useless-constructor": "error",
 
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": "warn",

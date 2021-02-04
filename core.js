@@ -206,9 +206,7 @@ module.exports = {
         "radix": "error",
         "require-atomic-updates": "error",
         "require-await": "error",
-        "rest-spread-spacing": [
-            "error"
-        ],
+        "rest-spread-spacing": "error",
         "semi": [
             "error",
             "never"
@@ -223,8 +221,8 @@ module.exports = {
             }
         ],
         "sort-keys": [
-            "asc",
             "error",
+            "asc",
             {
                 "caseSensitive": true,
                 "minKeys": 2,
