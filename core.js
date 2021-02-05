@@ -100,12 +100,7 @@ module.exports = {
         "modules-newline/import-declaration-newline": "error",
         "multiline-ternary": ["error", "always-multiline"],
         "newline-before-return": "error",
-        "newline-per-chained-call": [
-            "error",
-            {
-                "ignoreChainWithDepth": 2
-            }
-        ],
+        "newline-per-chained-call": "error",
         "no-async-promise-executor": "error",
         "no-await-in-loop": "error",
         "no-case-declarations": "error",
