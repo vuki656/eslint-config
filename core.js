@@ -245,7 +245,6 @@ module.exports = {
         "unicorn/better-regex": "error",
         "unicorn/catch-error-name": "error",
         "unicorn/consistent-destructuring": "error",
-        "unicorn/consistent-function-scoping": "error",
         "unicorn/error-message": "error",
         "unicorn/new-for-builtins": "error",
         "unicorn/no-abusive-eslint-disable": "error",
