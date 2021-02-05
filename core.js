@@ -8,7 +8,7 @@ module.exports = {
         "node": true
     },
     "parserOptions": {
-        "ecmaVersion": 2018,
+        "ecmaVersion": 2021,
         "sourceType": "module"
     },
     "plugins": [
@@ -17,7 +17,8 @@ module.exports = {
         "modules-newline",
         "unused-imports",
         "sort-keys-fix",
-        "sort-destructure-keys"
+        "sort-destructure-keys",
+        "unicorn"
     ],
     "rules": {
         "array-bracket-spacing": "error",
@@ -241,9 +242,53 @@ module.exports = {
         "space-in-parens": "error",
         "space-infix-ops": "error",
         "template-curly-spacing": "error",
+        "unicorn/better-regex": "error",
+        "unicorn/catch-error-name": "error",
+        "unicorn/consistent-destructuring": "error",
+        "unicorn/consistent-function-scoping": "error",
+        "unicorn/error-message": "error",
+        "unicorn/new-for-builtins": "error",
+        "unicorn/no-abusive-eslint-disable": "error",
+        "unicorn/no-array-push-push": "error",
+        "unicorn/no-console-spaces": "error",
+        "unicorn/no-for-loop": "error",
+        "unicorn/no-instanceof-array": "error",
+        "unicorn/no-keyword-prefix": [
+            "error", {
+                "blacklist": [
+                    "new",
+                    "for"
+                ]
+            }
+        ],
+        "unicorn/no-lonely-if": "error",
+
+        "no-nested-ternary": "off",
+        "unicorn/no-nested-ternary": "error",
+
+        "unicorn/no-new-array": "error",
+        "unicorn/no-object-as-default-parameter": "error",
+        "unicorn/no-unreadable-array-destructuring": "error",
+        "unicorn/no-unsafe-regex": "error",
+        "unicorn/no-zero-fractions": "error",
+        "unicorn/prefer-array-find": "error",
+        "unicorn/prefer-array-flat-map": "error",
+        "unicorn/prefer-array-index-of": "error",
+        "unicorn/prefer-array-some": "error",
+        "unicorn/prefer-date-now": "error",
+        "unicorn/prefer-includes": "error",
+        "unicorn/prefer-negative-index": "error",
+        "unicorn/prefer-regexp-test": "error",
+        "unicorn/prefer-spread": "error",
+        "unicorn/prefer-string-replace-all": "off",
+        "unicorn/prefer-string-slice": "error",
+        "unicorn/prefer-string-trim-start-end": "error",
+        "unicorn/prevent-abbreviations": "error",
+        "unicorn/throw-new-error": "error",
         "unused-imports/no-unused-imports-ts": "error",
         "use-isnan": "error",
         "valid-typeof": "error",
         "wrap-iife": "error",
         "yoda": "error"
-    }}
+    }
+}
