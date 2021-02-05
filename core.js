@@ -283,7 +283,15 @@ module.exports = {
         "unicorn/prefer-string-replace-all": "off",
         "unicorn/prefer-string-slice": "error",
         "unicorn/prefer-string-trim-start-end": "error",
-        "unicorn/prevent-abbreviations": "error",
+        "unicorn/prevent-abbreviations": [
+            "error",
+            {
+                "whitelist": {
+                    "props": true,
+                    "Props": true
+                }
+            }
+        ],
         "unicorn/throw-new-error": "error",
         "unused-imports/no-unused-imports-ts": "error",
         "use-isnan": "error",
