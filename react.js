@@ -27,7 +27,7 @@ module.exports = {
         }
     },
     "rules": {
-        "react-hooks/exhaustive-deps": "warn",
+        "react-hooks/exhaustive-deps": "off",
         "react-hooks/rules-of-hooks": "error",
         "react/jsx-boolean-value": [
             "error",
