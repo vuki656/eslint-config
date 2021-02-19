@@ -283,7 +283,9 @@ module.exports = {
             {
                 "whitelist": {
                     "props": true,
-                    "Props": true
+                    "Props": true,
+                    "Args": true,
+                    "args": true
                 }
             }
         ],
