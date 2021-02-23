@@ -179,7 +179,11 @@ module.exports = {
         "object-shorthand": ["error", "never"],
         "padded-blocks": [
             "error",
-            "never"
+            {
+                "classes": "always",
+                "blocks": "never",
+                "switches": "never"
+            }
         ],
         "padding-line-between-statements": [
             "error",
