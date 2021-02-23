@@ -17,6 +17,7 @@
     "core.js",
     "index.js",
     "react.js",
+    "type-graphql.js",
     "react-native.js",
     "typescript.js"
   ],
