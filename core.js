@@ -18,7 +18,8 @@ module.exports = {
         "unused-imports",
         "sort-keys-fix",
         "sort-destructure-keys",
-        "unicorn"
+        "unicorn",
+        "indent-class-properties"
     ],
     "rules": {
         "array-bracket-spacing": "error",
@@ -85,6 +86,7 @@ module.exports = {
                 "SwitchCase": 1
             }
         ],
+        "indent-class-properties/indent": ["error", 4],
         "jsx-quotes": [
             "error",
             "prefer-double"

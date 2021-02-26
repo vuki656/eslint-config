@@ -726,6 +726,13 @@ eslint-plugin-import@^2.22.1:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
+eslint-plugin-indent-class-properties@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-indent-class-properties/-/eslint-plugin-indent-class-properties-1.0.3.tgz#6f4c1a162c1c8188ecab9af77682045c89f9dc1b"
+  integrity sha512-LQJpLbi+adXsi22jpKaFFFO9cdNUaMhyXyMnQ0P3mSz21P78yNj+IKmXN/1XS9FUX8mYgny/xHRLYKyGOxmWag==
+  dependencies:
+    requireindex "~1.1.0"
+
 eslint-plugin-modules-newline@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/eslint-plugin-modules-newline/-/eslint-plugin-modules-newline-0.0.6.tgz#310093ee8656efe92a8c6f9cb3aa5df9fea6331c"
